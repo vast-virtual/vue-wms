@@ -1,6 +1,7 @@
 # vue-wms
 
-> 本项目基于vue-admin-template模板开发
+> 本项目基于vue-admin-template
+->> master 分支
 
 ## 相关项目
 
