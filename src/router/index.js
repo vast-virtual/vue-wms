@@ -176,6 +176,20 @@ export const constantRoutes = [
     ]
   },
 
+  {
+    path: '/error-log',
+    component: Layout,
+    redirect: 'noredirect',
+    children: [
+      {
+        path: 'log',
+        component: () => import('@/views/basic-functions/error-log/index'),
+        name: 'ErrorLog',
+        meta: { title: 'errorLog', icon: 'bug' }
+      }
+    ]
+  },
+
 
   // 404 page must be placed at the end !!!
   { path: '*', redirect: '/404', hidden: true }
